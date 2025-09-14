@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-project2",
+  "version": "1.0.0",
+  "description": "Bootstrap Project using Nunjucks + Vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.1",
+    "nunjucks": "^3.2.4",
+    "vite": "^5.0.0",
+    "vite-plugin-static-copy": "^3.1.2"
+  }
+}

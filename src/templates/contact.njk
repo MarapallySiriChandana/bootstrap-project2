@@ -1,0 +1,30 @@
+{% extends "base.njk" %}
+{% set title = "Contact | CleanSite" %}
+{% set page_class = "contact" %}
+{% set page = "contact" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Contact Us 📬</h1>
+  <p>Have any questions or feedback? Drop us a message below!</p>
+</section>
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom w-100">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
